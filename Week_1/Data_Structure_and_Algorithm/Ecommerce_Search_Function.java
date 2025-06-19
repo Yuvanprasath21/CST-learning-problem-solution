@@ -45,6 +45,6 @@ class Ecommerce_Search_Function {
         };
         Arrays.sort(products, Comparator.comparing(p -> p.productName));
         System.out.println(linearSearch(products, "Mouse")); // Output: 3
-        System.out.println(binarySearch(products, "Keyboard")); // Output: 0
+        System.out.println(binarySearch(products, "Laptop")); // Output: 1
     }
 }
