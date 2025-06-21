@@ -1,3 +1,4 @@
+package Design_Patterns_and_Principles;
 // Document.java
 interface Document {
     void open();
