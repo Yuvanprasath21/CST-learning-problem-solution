@@ -1,6 +1,6 @@
 package Data_Structure_and_Algorithm;
 
-public class FinancialForecasting {
+class FinancialForecasting {
 
     public static double forecast(double[] pastData, int year) {
         if (year == 0) {
