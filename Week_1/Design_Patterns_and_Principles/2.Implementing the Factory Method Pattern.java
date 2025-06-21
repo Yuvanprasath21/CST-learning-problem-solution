@@ -52,7 +52,7 @@ class ExcelDocumentFactory extends DocumentFactory {
 }
 
 // FactoryMethodPatternExample.java
-public class FactoryMethodPatternExample {
+class FactoryMethodPatternExample {
     public static void main(String[] args) {
         DocumentFactory wordFactory = new WordDocumentFactory();
         Document word = wordFactory.createDocument();

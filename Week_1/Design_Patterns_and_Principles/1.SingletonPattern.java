@@ -1,5 +1,5 @@
 package Design_Patterns_and_Principles;
-public class Logger {
+class Logger {
     private static Logger instance;
     
     private Logger() { }
